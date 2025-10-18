@@ -1,5 +1,11 @@
 # Listo ✨
 
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![GitHub stars](https://img.shields.io/github/stars/your-github-username/Listo?style=for-the-badge)
+
 **Tasks made joyful ✨**
 
 My first full-stack project  
