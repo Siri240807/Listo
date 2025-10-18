@@ -1,0 +1,109 @@
+/* General Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #EAD6FF, #FFE4E1);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/* Todo Container */
+.todo-container {
+  width: 100%;
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 20px 25px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  backdrop-filter: blur(10px);
+}
+
+/* Todo Items */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  margin-bottom: 12px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+  transition: transform 0.2s, opacity 0.3s;
+}
+
+.todo-item.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+.todo-item:hover {
+  transform: translateY(-2px);
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 12px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+button.edit {
+  background-color: #FFB74D;
+  color: #fff;
+}
+
+button.delete {
+  background-color: #FF6B6B;
+  color: #fff;
+}
+
+button.save {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+/* Input Field */
+input[type="text"] {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  width: 100%;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+/* Floating Add Button */
+.add-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #6C63FF, #FF6B6B);
+  color: #fff;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.add-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
