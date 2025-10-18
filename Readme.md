@@ -37,5 +37,3 @@ Organize your tasks, mark them complete, and celebrate with fun confetti animati
 👩‍💻 Author
 Srija Chinthakunta
 
-```bash
-cd backend
